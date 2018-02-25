@@ -1,4 +1,3 @@
 <resources>
-    <string name="app_name">WSensor</string>
-    <string name="name">SENSORS</string>
+    <string name="app_name">SENSORS</string>
 </resources>

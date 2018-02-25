@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data class="SensorDataBinding">
+
+        <variable
+            name="viewModel"
+            type="make.up.the.tool.wsensor.view_model.SensorViewModel" />
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/item_marker"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:background="@color/colorPrimaryDark"
+            android:text="@{viewModel.sensorName}"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/item"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:background="@color/colorPrimaryDark"
+            android:text="@{viewModel.sensorValues}"
+            android:textColor="@color/white" />
+    </LinearLayout>
+</layout>
