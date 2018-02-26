@@ -16,5 +16,4 @@ public class Constants {
     public static final String SAVE_STATE = "onSaveInstanceState()";
 
     public static final String PATTERN_SENSOR_VALUES = "%12s";
-    public static final String BORDER = "\n\n";
 }

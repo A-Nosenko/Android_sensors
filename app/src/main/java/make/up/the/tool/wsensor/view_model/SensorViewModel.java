@@ -24,7 +24,7 @@ public class SensorViewModel extends BaseObservable {
     private String sensorValues;
 
     public SensorViewModel(Sensor sensor, SensorManager sensorManager) {
-        this.sensorName = sensor.getName() + Constants.BORDER;
+        this.sensorName = sensor.getName();
 
         listener = new SensorEventListener() {
             private final StringBuilder stringBuilder = new StringBuilder();
