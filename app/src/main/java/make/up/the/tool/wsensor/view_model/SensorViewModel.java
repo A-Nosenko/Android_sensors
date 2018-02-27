@@ -8,7 +8,6 @@ import android.hardware.SensorEventListener;
 import android.hardware.SensorManager;
 
 import make.up.the.tool.wsensor.BR;
-import make.up.the.tool.wsensor.model.Constants;
 
 import static make.up.the.tool.wsensor.model.Constants.PATTERN_SENSOR_VALUES;
 
